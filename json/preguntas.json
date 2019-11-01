@@ -1,0 +1,384 @@
+[
+    {
+        "id": "tur1",
+        "pregunta": "Te gustaria pasar planificando, desarrollando eventos, congresos, diseñando e innovando productos de caracter turístico"
+    },
+    {
+        "id": "cont1",
+        "pregunta": "Trabajar como cajero, planillero, asistente administrativo o contable en una empresa"
+    },
+    {
+        "id": "salu1",
+        "pregunta": "Te inclinas por el desarrollo y promocion de salud"
+    },
+    {
+        "id": "logi1",
+        "pregunta": "Disfrutarias de hacer gestiones de logistica basica"
+    },
+    {
+        "id": "infr1",
+        "pregunta": "Realizar instalaciones de mantenimiento de sistemas electricos y de redes"
+    },
+    {
+        "id": "gene1",
+        "pregunta": "Aprender tecnicas basicas de panaderia"
+    },
+    {
+        "id": "soft1",
+        "pregunta": "Elaborar algoritmos usando logica de programacion"
+    },
+
+
+    {
+        "id": "tur2",
+        "pregunta": "Realizar operaciones y procesos de gastronomia hotelera"
+    },
+    {
+        "id": "cont2",
+        "pregunta": "Desempeñarte como asesor de negocios"
+    },
+    {
+        "id": "salu2",
+        "pregunta": "Te sientes atraido/a por la rehabilitacion de enfermos"
+    },
+    {
+        "id": "logi2",
+        "pregunta": "Verificar el despacho aduanero de mercancias de importacion y exportacion"
+    },
+    {
+        "id": "infr2",
+        "pregunta": "Sientes gusto por la instalacion y mantenimiento de equipo ofimático"
+    },
+    {
+        "id": "gene2",
+        "pregunta": "Te sentirias satisfecho/a ensamblando y desensamblando computadoras"
+    },
+    {
+        "id": "soft2",
+        "pregunta": "Disfrutarias diseñando sistemas informaticos"
+    },
+
+
+    {
+        "id": "tur3",
+        "pregunta": "Te gustaria desarrollarte como guia turistico o empresario turistico"
+    },
+    {
+        "id": "cont3",
+        "pregunta": "Ser jefe del area contable o gerente de tu propia empresa o negocio"
+    },
+    {
+        "id": "salu3",
+        "pregunta": "Te sentirias bien dando atencion en primeros auxilios"
+    },
+    {
+        "id": "logi3",
+        "pregunta": "Sentirias gusto por manejar terminologia tecnica de logistica y aduanas"
+    },
+    {
+        "id": "infr3",
+        "pregunta": "Instalar y dar mantenimiento de aplicaciones ofimaticas"
+    },
+    {
+        "id": "gene3",
+        "pregunta": "Te inclinas por estudios de cultura general"
+    },
+    {
+        "id": "soft3",
+        "pregunta": "Sientes interes por el diseño e instalacion de redes LAN"
+    },
+    
+
+    {
+        "id": "tur4",
+        "pregunta": "Promocion y comercializacion de empresas turisticas"
+    },
+    {
+        "id": "cont4",
+        "pregunta": "Aconsejar a las personas sobre planes de ahorro e inversiones"
+    },
+    {
+        "id": "salu4",
+        "pregunta": "Dar atencion primaria en salud a la niñez y adultos mayores"
+    },
+    {
+        "id": "logi4",
+        "pregunta": "Elaborar el plan de negocios para una empresa con fines de exportacion"
+    },
+    {
+        "id": "infr4",
+        "pregunta": "Utilizacion de herramientas de diseño multimedia"
+    },
+    {
+        "id": "gene4",
+        "pregunta": "Sientes pasion por aprender el idioma ingles y dominarlo a la perfeccion"
+    },
+    {
+        "id": "soft4",
+        "pregunta": "Te gustaria aprender a desarrollar aplicaciones de software para la solucion de problemas"
+    },
+
+
+    {
+        "id": "tur5",
+        "pregunta": "Disfrutarias elaborando recetarios, preparacion de platillos segun oferta gastronomica"
+    },
+    {
+        "id": "cont5",
+        "pregunta": "Crear estrategias de promocion y venta de nuevos productos salvadoreños en el mercado internacional"
+    },
+    {
+        "id": "salu5",
+        "pregunta": "Aplicar protocolos de vigilancia epidemiologica"
+    },
+    {
+        "id": "logi5",
+        "pregunta": "Manejar sistemas de distribucion fisica de marcancias en puertos y aduanas nacional e internacional"
+    },
+    {
+        "id": "infr5",
+        "pregunta": "Trabajar en desarrollar aplicaciones de software para solucionar problemas"
+    },
+    {
+        "id": "gene5",
+        "pregunta": "Aprender a confeccionar prendas de vestir"
+    },
+    {
+        "id": "soft5",
+        "pregunta": "Desarrollar componentes para dispositivos moviles"
+    },
+
+
+    {
+        "id": "tur6",
+        "pregunta": "Desempeñarte como tecnico auxiliar de cocina, supervisor de area de alimentos y bebida en un hotel o restaurante"
+    },
+    {
+        "id": "cont6",
+        "pregunta": "Realizar calculos de costos y presupuestos operativos de una empresa"
+    },
+    {
+        "id": "salu6",
+        "pregunta": "Diseñar talleres para enseñar a la gente sobre temas de salud e higiene"
+    },
+    {
+        "id": "logi6",
+        "pregunta": "Trabajar en operaciones aduaneras"
+    },
+    {
+        "id": "infr6",
+        "pregunta": "Llevar a cabo instalaciones y mantenimiento de redes informaticas"
+    },
+    {
+        "id": "gene6",
+        "pregunta": "Te llama la atencion el aprendizaje de actividades manuales"
+    },
+    {
+        "id": "soft6",
+        "pregunta": "Te gustaria que una empresa te contratara como auxiliar en areas de software"
+    },
+
+
+    {
+        "id": "tur7",
+        "pregunta": "Ser auxiliar de web master en empresas turisticas"
+    },
+    {
+        "id": "cont7",
+        "pregunta": "Disfrutarias elaborando y analizando estados financieros"
+    },
+    {
+        "id": "salu7",
+        "pregunta": "Atraido por desarrollar programas de atencion primaria en sexualidad y afectividad"
+    },
+    {
+        "id": "logi7",
+        "pregunta": "Desempeñarte como tramitador de aduanas"
+    },
+    {
+        "id": "infr7",
+        "pregunta": "Sientes inclinacion por las instalaciones y mantenimiento de redes inalambricas y de voz"
+    },
+    {
+        "id": "gene7",
+        "pregunta": "Realizar un curso de formacion de valores"
+    },
+    {
+        "id": "soft7",
+        "pregunta": "Te agrada la idea de ser un administrador de soporte y adecuaciones de sistemas"
+    },
+
+
+    {
+        "id": "tur8",
+        "pregunta": "Desarrollarte como gestor de compras o como consultor independiente en empresas turisticas"
+    },
+    {
+        "id": "cont8",
+        "pregunta": "Te gustaria conocer, aplicar la legislacion mercantil, laboral a las operaciones empresariales"
+    },
+    {
+        "id": "salu8",
+        "pregunta": "Trabajar como asistente de enfermeria"
+    },
+    {
+        "id": "logi8",
+        "pregunta": "Desarrollarte como operario de logistica en agencias navieras"
+    },
+    {
+        "id": "infr8",
+        "pregunta": "Revisar y dar mantenimiento a artefactos electricos, electronicos y computadoras"
+    },
+    {
+        "id": "gene8",
+        "pregunta": "Esta dentro de tu interes seguirte preparando para estudios universitarios"
+    },
+    {
+        "id": "soft8",
+        "pregunta": "Desempeñarte como arquitecto de soluciones tecnologicas"
+    },
+
+
+    {
+        "id": "tur9",
+        "pregunta": "Trabajar como tecnico en diseño, evaluacion y ejecucion de paquetes turisticos"
+    },
+    {
+        "id": "cont9",
+        "pregunta": "Controlar ingresos y egresos de fondos y presentar el balance general de una institucion"
+    },
+    {
+        "id": "salu9",
+        "pregunta": "Trabajar como asistente de ciudadanos en salud en instituciones publicas o privadas"
+    },
+    {
+        "id": "logi9",
+        "pregunta": "Realizar operaciones de importacion y exportacion en zonas francas y parques de servicios"
+    },
+    {
+        "id": "infr9",
+        "pregunta": "Trabajar dando soporte a sistemas de informacion empresarial (ERP)"
+    },
+    {
+        "id": "gene9",
+        "pregunta": "Interes por los problemas que dan a la inteligencia la oportunidad de buscar y crear"
+    },
+    {
+        "id": "soft9",
+        "pregunta": "Diseñar programas de computacion y explorar nuevas aplicaciones tecnologicas para uso de internet"
+    },
+
+
+    {
+        "id": "tur10",
+        "pregunta": "Desempeñarte como ejecutivo de ventas de paquetes turisticos"
+    },
+    {
+        "id": "cont10",
+        "pregunta": "Planificar cuales son las metas de una organizacion publica o privada a mediano y largo plazo"
+    },
+    {
+        "id": "salu10",
+        "pregunta": "Trabajar como asistente de laboratotio clinico"
+    },
+    {
+        "id": "logi10",
+        "pregunta": "Ser un auxiliar de documentos de embarque"
+    },
+    {
+        "id": "infr10",
+        "pregunta": "Desarrollarte como analista programador de sistemas, tecnico de internet, dar soporte tecnico"
+    },
+    {
+        "id": "gene10",
+        "pregunta": "Apender de cultura universal"
+    },
+    {
+        "id": "soft10",
+        "pregunta": "Trabajar como gestor de pruebas y aseguramiento de calidad de soluciones de tecnologia"
+    },
+
+
+    {
+        "id": "auto1",
+        "pregunta": "Dispones en tu casa de un sitio fijo para estudiar"
+    },
+    {
+        "id": "auto2",
+        "pregunta": "Tienes un horario fijo de estudio, descanso y tiempo libre"
+    },
+    {
+        "id": "auto3",
+        "pregunta": "Asistes a clases con agrado, sigues las explicaciones del profesor y preguntas cuando tienes dudas"
+    },
+    {
+        "id": "auto4",
+        "pregunta": "Cuando repasas para un examen repasas los apuntes que has tomado en clases"
+    },
+    {
+        "id": "auto5",
+        "pregunta": "En tiempos libres y vacaciones te ocupas en algun trabajo"
+    },
+    {
+        "id": "auto6",
+        "pregunta": "Tendencia a iniciar una platica con las personas"
+    },
+    {
+        "id": "auto7",
+        "pregunta": "Dejas pasar mucho tiempo para tomar decisiones"
+    },
+    {
+        "id": "auto8",
+        "pregunta": "Te adaptas a los acontecimientos, a las circunstancias, a las personas"
+    },
+    {
+        "id": "auto9",
+        "pregunta": "Cuando se te presenta un problema analizas los pro y los contas de la situacion"
+    },
+    {
+        "id": "auto10",
+        "pregunta": "Te impones a una persona, grupo te haces escuchar y respetar"
+    },
+
+
+    {
+        "id": "rela1",
+        "pregunta": "Tienes una familia nuclear"
+    },
+    {
+        "id": "rela2",
+        "pregunta": "En casa hay momentos del dia o semana en que hay reunion para conversar y cada uno dice que vivio"
+    },
+    {
+        "id": "rela3",
+        "pregunta": "Vives en una familia monoparental o de tercera generacion"
+    },
+    {
+        "id": "rela4",
+        "pregunta": "Tienes un horario fijo para dormir"
+    },
+    {
+        "id": "rela5",
+        "pregunta": "Tienes un horario fijo para levantarte"
+    },
+    {
+        "id": "rela6",
+        "pregunta": "La reaccion de tus familiares cuando algo no te sale bien es de descalificacion, reproche"
+    },
+    {
+        "id": "rela7",
+        "pregunta": "Cuando algo te sale bien tu familia te felicita y te anima a continuar con tus metas"
+    },
+    {
+        "id": "rela8",
+        "pregunta": "Tus responsables se acercan a la instutucion a preguntar por tu comportamiento y notas"
+    },
+    {
+        "id": "rela9",
+        "pregunta": "Tus padres te dan todos los utiles necesarios para estudiar"
+    },
+    {
+        "id": "rela10",
+        "pregunta": "En tu casa te permiten salir con amigos y te asignan tiempo que puedes disfrutar de su compañia"
+    }
+]
