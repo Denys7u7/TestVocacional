@@ -6,8 +6,6 @@
     font-family: 'Lato', sans-serif;
 }
 
-
-
 .pregunta input[type="checkbox"]{
     display: none;
 }
@@ -323,4 +321,45 @@ h2.notificacion{
 .ayuda > a > i{
     font-size: 3rem;
     color: #001f3f;
+}
+
+table{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: 'Raleway';
+}
+
+table th, table td{
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+table thead{
+    background-color:  rgba(0,31,63,1);
+    color: #fff;
+}
+
+table tbody{
+    background-color: rgba(0,116,217,0.7);
+    font-family: 'Raleway';
+    color: rgba(0,31,63,1);
+}
+
+table #puntos{
+    border-bottom: 1px solid black;
+}
+
+table tr td, table tr th{
+    width: 7.1%;
+}
+
+table tr td:nth-child(1), table tr:nth-child(1) th:nth-child(1),
+table tr td:nth-child(2), table tr:nth-child(1) th:nth-child(2),
+table tr td:nth-child(3), table tr:nth-child(1) th:nth-child(3){
+    width: 12%;
 }

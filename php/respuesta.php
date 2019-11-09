@@ -68,6 +68,23 @@
             }
         }
 
+        function burbuja($array)
+        {
+            for($i=1;$i<count($array);$i++)
+            {
+                for($j=0;$j<count($array)-$i;$j++)
+                {
+                    if($array[$j]>$array[$j+1])
+                    {
+                        $k=$array[$j+1];
+                        $array[$j+1]=$array[$j];
+                        $array[$j]=$k;
+                    }
+                }
+            }
+            return $array;
+        }
+
         $informacion[] = $_POST["nombre"];
         $informacion[] = $_POST["grupo"];
         $informacion[] = $_POST["nie"];
@@ -90,28 +107,168 @@
         $informacion2[] = $software;
         $informacion2[] = $logistica;
         $informacion2[] = $general;
-        $maximo = max($informacion2);
+        $informacion3 = burbuja($informacion2);
 
-        if($software == $maximo){
+
+        if($software == $informacion3[6]){
             $resultado = 'Desarrollo de Software';
+
+            if($contaduria == $informacion3[5]){
+                $resultado .= ' ó Contaduría';
+            } 
+            elseif($salud == $informacion3[5]){
+                $resultado  .= ' ó Salud';
+            }
+            elseif($turismo == $informacion3[5]){
+                $resultado .= ' ó Turismo';
+            }
+            elseif($infra == $informacion3[5]){
+                $resultado .= ' ó Infraestructura';
+            }
+            elseif($logistica == $informacion3[5]){
+                $resultado .= ' ó Logistica y Aduana';
+            } 
+            else{
+                $resultado .= ' ó General';
+            }
+
         } 
-        elseif($contaduria == $maximo){
+        elseif($contaduria == $informacion3[6]){
             $resultado = 'Contaduría';
+
+            if($software == $informacion3[5]){
+                $resultado .= ' ó Software';
+            } 
+            elseif($salud == $informacion3[5]){
+                $resultado  .= ' ó Salud';
+            }
+            elseif($turismo == $informacion3[5]){
+                $resultado .= ' ó Turismo';
+            }
+            elseif($infra == $informacion3[5]){
+                $resultado .= ' ó Infraestructura';
+            }
+            elseif($logistica == $informacion3[5]){
+                $resultado .= ' ó Logistica y Aduana';
+            } 
+            else{
+                $resultado .= ' ó General';
+            }
         } 
-        elseif($salud == $maximo){
+        elseif($salud == $informacion3[6]){
             $resultado  = 'Salud';
+
+            if($contaduria == $informacion3[5]){
+                $resultado .= ' ó Contaduría';
+            } 
+            elseif($software == $informacion3[5]){
+                $resultado  .= ' ó Software';
+            }
+            elseif($turismo == $informacion3[5]){
+                $resultado .= ' ó Turismo';
+            }
+            elseif($infra == $informacion3[5]){
+                $resultado .= ' ó Infraestructura';
+            }
+            elseif($logistica == $informacion3[5]){
+                $resultado .= ' ó Logistica y Aduana';
+            } 
+            else{
+                $resultado .= ' ó General';
+            }
+
         }
-        elseif($turismo == $maximo){
+        elseif($turismo == $informacion3[6]){
             $resultado = 'Turismo';
+
+            if($contaduria == $informacion3[5]){
+                $resultado .= ' ó Contaduría';
+            } 
+            elseif($salud == $informacion3[5]){
+                $resultado  .= ' ó Salud';
+            }
+            elseif($software == $informacion3[5]){
+                $resultado .= ' ó Software';
+            }
+            elseif($infra == $informacion3[5]){
+                $resultado .= ' ó Infraestructura';
+            }
+            elseif($logistica == $informacion3[5]){
+                $resultado .= ' ó Logistica y Aduana';
+            } 
+            else{
+                $resultado .= ' ó General';
+            }
+
         }
-        elseif($infra == $maximo){
+        elseif($infra == $informacion3[6]){
             $resultado = 'Infraestructura';
+
+            if($contaduria == $informacion3[5]){
+                $resultado .= ' ó Contaduría';
+            } 
+            elseif($salud == $informacion3[5]){
+                $resultado  .= ' ó Salud';
+            }
+            elseif($turismo == $informacion3[5]){
+                $resultado .= ' ó Turismo';
+            }
+            elseif($software == $informacion3[5]){
+                $resultado .= ' ó Software';
+            }
+            elseif($logistica == $informacion3[5]){
+                $resultado .= ' ó Logistica y Aduana';
+            } 
+            else{
+                $resultado .= ' ó General';
+            }
+
         }
-        elseif($logistica == $maximo){
+        elseif($logistica == $informacion3[6]){
             $resultado = 'Logistica y Aduana';
+
+            if($contaduria == $informacion3[5]){
+                $resultado .= ' ó Contaduría';
+            } 
+            elseif($salud == $informacion3[5]){
+                $resultado  .= ' ó Salud';
+            }
+            elseif($turismo == $informacion3[5]){
+                $resultado .= ' ó Turismo';
+            }
+            elseif($infra == $informacion3[5]){
+                $resultado .= ' ó Infraestructura';
+            }
+            elseif($software == $informacion3[5]){
+                $resultado .= ' ó Software';
+            } 
+            else{
+                $resultado .= ' ó General';
+            }
+
         } 
         else{
             $resultado = 'General';
+
+            if($contaduria == $informacion3[5]){
+                $resultado .= ' ó Contaduría';
+            } 
+            elseif($salud == $informacion3[5]){
+                $resultado  .= ' ó Salud';
+            }
+            elseif($turismo == $informacion3[5]){
+                $resultado .= ' ó Turismo';
+            }
+            elseif($infra == $informacion3[5]){
+                $resultado .= ' ó Infraestructura';
+            }
+            elseif($logistica == $informacion3[5]){
+                $resultado .= ' ó Logistica y Aduana';
+            } 
+            else{
+                $resultado .= ' ó Software';
+            }
+
         }
 
         if($autoconocimiento > 5){
@@ -132,7 +289,7 @@
         <div class="title">
             <p><span>RESULTADOS</span></p><br>
             <hr><br>
-            <p>El alumno <span><?php echo $_POST["nombre"] ?></span>
+            <p>El alumno <span><?php  echo $_POST["nombre"] ?></span>
             que pertenece al grupo <span><?php echo $_POST["grupo"] ?></span> a obtenido el siguiente puntaje</p>
         </div>
         <p class="bloque">Se te recomienda que te inclines por: <span><?php echo $resultado ?></span></p>

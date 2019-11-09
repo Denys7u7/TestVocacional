@@ -92,7 +92,7 @@
             confirmButton: 'boton-finalizar',
             cancelButton: 'boton-cancelar'
         },
-        buttonsStyling: false
+        buttonsStyling: true
         })
 
         function alerta(){
@@ -141,12 +141,12 @@
         boton.on('click', function(){
             
             const swalWithBootstrapButtons = Swal.mixin({
-                    customClass: {
-                        confirmButton: 'btn btn-success',
-                        cancelButton: 'btn btn-danger'
-                    },
-                    buttonsStyling: false
-                })
+                customClass: {
+                    confirmButton: 'boton-finalizar',
+                    cancelButton: 'boton-cancelar'
+                },
+                buttonsStyling: true
+            })
 
                 swalWithBootstrapButtons.fire({
                 title: 'Finalizar',

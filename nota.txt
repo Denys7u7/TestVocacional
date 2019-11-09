@@ -1,0 +1,1 @@
+En la carpeta php se encuentra en archivo llamado registro, ese muestra los resultados desde la BDD
